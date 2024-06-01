@@ -1,0 +1,98 @@
+.to-do-list {
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.521);
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+input[type="text"] {
+  width: calc(100% - 90px); /* Adjusted width */
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #45a049;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.562);
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  margin-right: 10px;
+}
+
+.delete-button, .move-button, .edit-button, .save-button, .cancel-button {
+  padding: 5px 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: #f44336;
+}
+
+.move-button {
+  background-color: #008CBA;
+}
+
+.move-button:hover {
+  background-color: #007b9c;
+}
+
+.edit-button {
+  background-color: #f0ad4e;
+}
+
+.edit-button:hover {
+  background-color: #ec971f;
+}
+
+.save-button {
+  background-color: #5cb85c;
+}
+
+.save-button:hover {
+  background-color: #4cae4c;
+}
+
+.cancel-button {
+  background-color: #d9534f;
+}
+
+.cancel-button:hover {
+  background-color: #c9302c;
+}
